@@ -6,10 +6,6 @@
   to {
     transform: rotate(359deg); } }
 
-.live-pos {
-  height: 120vh;
-}
-
 .p-rights {
 
 position: absolute;
@@ -6987,7 +6983,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 

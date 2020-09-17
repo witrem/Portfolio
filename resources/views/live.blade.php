@@ -34,9 +34,8 @@
 @include('partials.notifications')
     @include('common.header')
 
-
    <div id="landing-page">
-   <section class="section has-background-white is-medium">
+   <section id="content" class="section block has-background-white is-medium">
       <div class="container  is-small has-text-centered">
          <div class="columns">
             <div class="column is-half is-offset-one-quarter">
@@ -56,7 +55,6 @@
               </div> 
    </section>
    </div>
-
     @yield('bottom')
     <script src="{{ versioned_asset('dist/app.js') }}"></script>
     @yield('scripts')
