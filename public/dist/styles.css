@@ -6,6 +6,11 @@
   to {
     transform: rotate(359deg); } }
 
+#twitch-embed {
+  height: 50vh;
+  margin-bottom: 1.5vh;
+}
+
 .p-rights {
 
 position: absolute;

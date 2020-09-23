@@ -32,7 +32,7 @@
                <h1 class="title is-spaced">Qui suis-je ?</h1>
                <h5 class="subtitle  is-spaced">
                Alexis {{$age}} ans, étudiant passionné en 4ème année à l'EPSI Nantes en spécialité infrastructure système et réseaux 
-               </h2>
+               </h5>
             </div>
          </div>
          <div class="columns">
