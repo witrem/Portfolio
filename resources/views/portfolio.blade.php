@@ -1,6 +1,7 @@
 
 @extends('simple-layout')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <link rel="stylesheet" href="{{ versioned_asset('dist/main.css') }}">
 <!-- <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}"> -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -72,7 +73,7 @@
          </div>
          <div class="columns">
             <div class="column">
-               <div class="notification" style="background-color: #12415C; color: #fff;">
+               <div class="notification news">
                   <button class="delete"></button>
                   <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="http://127.0.0.1:8000/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
                </div>
@@ -84,7 +85,7 @@
       <div class="container  is-small has-text-centered">
          <div class="columns">
             <div class="column is-half is-offset-one-quarter">
-               <h1 class="title is-spaced">Mes Compétences</h1>
+               <h1 class="title is-spaced">Compétences</h1>
             </div>
          </div>
          <div class="columns">
@@ -191,7 +192,7 @@
          </div>
          <div class="columns">
             <div class="column">
-               <a href="{{ asset('cv/CV_AlexisLegeay.pdf') }}" class="button is-medium" download="">
+               <a href="{{ asset('cv/CV_AlexisLegeay.pdf') }}" id="cv" class="button is-medium" download="">
                <span class="icon">
                <i class="fas fa-file-pdf"></i>
                </span>
@@ -291,13 +292,14 @@
             </div>
          </div>
       </div>
+<div class="has-background-white card">
       <div id="contact" class="card-content is-flex is-horizontal-center">
          <div class="columns is-centered">
             <div class="column is-narrow">
                <div class="field">
                   <label class="label">Nom</label>
-                  <div class="control">
-                     {!! form_widget($form->nom) !!}
+                  <div class="control ">
+                     {!! form_widget($form->nom,$options = ['attr' => ['class' => 'form-input']]) !!}
                   </div>
                </div>
                <div class="field">
@@ -348,6 +350,7 @@
       </div>
    </div>
    {!! form_end($form) !!}
+</div>
 </section>
 <section id="ecosystem" class="section has-background-white is-medium has-text-centered">
    <div class="container is-small">

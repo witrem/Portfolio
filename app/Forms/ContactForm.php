@@ -11,18 +11,18 @@ class ContactForm extends Form
     {
         $this
         ->add('prenom', Field::TEXT, [
-            'rules' => 'required|min:5','attr' => ['class' => 'input-group-text']
+            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('nom', Field::TEXT, [
-            'rules' => 'required|min:5','attr' => ['class' => 'input-group-text']
+            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('mail', Field::EMAIL, [
-            'rules' => 'required|min:5','attr' => ['class' => 'input-group-text']
+            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('message', Field::TEXTAREA, [
-            'rules' => 'max:5000','attr' => ['class' => 'contact']
+            'rules' => 'required|max:5000','attr' => ['class' => 'contact form-textarea']
         ])
-        ->add('Envoyer', 'submit', ['attr' => ['class' => 'button is-info']]);
+        ->add('Envoyer', 'submit', ['attr' => ['class' => 'button is-info send-form']]);
 
 
         $formOptions = [

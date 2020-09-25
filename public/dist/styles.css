@@ -11,6 +11,40 @@
   margin-bottom: 1.5vh;
 }
 
+.send-form {
+background: #009BE2 !important;
+box-shadow: 0px 9px 20px rgba(0, 155, 226, 0.24) !important;
+border-radius: 124px !important;
+}
+
+.form-input {
+background: #EFEFEF !important; 
+border: 2px solid #E6E6E6 !important;
+box-sizing: border-box !important;
+border-radius: 44px !important;
+}
+
+.form-textarea {
+  background: #EFEFEF;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 22px;
+  }
+
+
+
+
+#cv {
+box-shadow: 0px 9px 20px rgba(0, 155, 226, 0.24);
+border-radius: 124px;
+}
+
+.news {
+  
+  color: #fff;
+  font-family: poppins;
+}
+
 .p-rights {
 
 position: absolute;
@@ -2058,12 +2092,13 @@ a.box:active {
 .content h5,
 .content h6 {
   color: #363636;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.125; }
 
 .content h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em; }
+  font-size: 33px;
+  margin-bottom: 0.5em;
+font-family: poppins; }
   .content h1:not(:first-child) {
     margin-top: 1em; }
 
@@ -2085,7 +2120,8 @@ a.box:active {
 
 .content h5 {
   font-size: 1.125em;
-  margin-bottom: 0.8888em; }
+  margin-bottom: 0.8888em;
+  font-family: poppins; }
 
 .content h6 {
   font-size: 1em;
@@ -2281,7 +2317,7 @@ a.box:active {
     width: 128px; }
 
 .notification {
-  background-color: whitesmoke;
+  background-color: #12415C;
   border-radius: 4px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative; }
@@ -3693,8 +3729,11 @@ a.tag:hover {
   color: #363636;
   display: flex;
   flex-grow: 1;
+  font-size:22px;
   font-weight: 700;
-  padding: 0.75rem; }
+  padding: 0.75rem;
+  font-family: poppins;
+}
   .card-header-title.is-centered {
     justify-content: center; }
 
@@ -8784,9 +8823,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .title {
   color: #363636;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.125; }
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.125;
+  font-family: poppins;
+}
   .title strong {
     color: inherit;
     font-weight: inherit; }
@@ -8830,7 +8871,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .subtitle.is-5 {
     font-size: 1.25rem; }
   .subtitle.is-6 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-family: poppins; }
   .subtitle.is-7 {
     font-size: 0.75rem; }
 
@@ -10957,7 +10999,8 @@ a.navbar-item,
     word-wrap: normal;
     text-align: center;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    border-radius:10px; }
   .timeline .timeline-item {
     display: flex;
     display: -ms-flexbox;
@@ -13326,8 +13369,9 @@ body.flexbox {
  */
 .card {
   background-color: #FFF;
-  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12),
+  0 5px 15px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
   border: 1px solid transparent; }
   .card .body, .card p.empty-text {
     padding: 16px; }

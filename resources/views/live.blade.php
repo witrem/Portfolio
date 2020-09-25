@@ -1,4 +1,5 @@
 @extends('simple-layout')
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 @section('body')
     <!-- Add a placeholder for the Twitch embed -->
     <section  class="section is-medium">
