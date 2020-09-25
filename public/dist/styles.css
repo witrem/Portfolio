@@ -7032,9 +7032,8 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 footer {
-  
   position: relative;
-  bottom: 0;
+  bottom: -6vh;
 }
 
 @keyframes spinAround {

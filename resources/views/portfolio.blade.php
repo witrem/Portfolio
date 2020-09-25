@@ -203,9 +203,9 @@
 </div>
 </section>
 <section class="section has-background-white is-medium">
-   <div class="container  is-small has-text-centered">
+   <!-- <div class="container  is-small has-text-centered"> -->
       <div class="columns">
-         <div class="column is-half is-offset-one-quarter">
+         <div class="column is-half   is-offset-one-quarter has-text-centered">
             <h1 class="title is-spaced">Experiences & Formations</h1>
          </div>
       </div>
@@ -277,7 +277,7 @@
             <span class="is-medium is-primary">...Et Apres ?</span>
          </header>
       </div>
-   </div>
+   <!-- </div> -->
 </section>
 <section id="contact" class="section has-background-light">
    {!! form_start($form,$formOptions = [])!!}
@@ -290,9 +290,9 @@
    <div class="columns is-centered">
       <div class="column is-half">
        <div class="has-background-white card fiche">
-         <div id="contact" class="card-content is-half-desktop is-flex is-horizontal-center">
-            <div class="columns is-centered is-mobile">
-               <div class="column is-narrow">
+         <div id="contact" class="card-content is-half is-flex is-horizontal-center">
+            <div class="columns is-centered is-desktop">
+               <div class="column">
                   <div class="field">
                      <label class="label">Nom</label>
                      <div class="control ">
