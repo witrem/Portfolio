@@ -7,7 +7,7 @@
     transform: rotate(359deg); } }
 
 #twitch-embed {
-  height: 50vh;
+  height: 60vh;
   margin-bottom: 1.5vh;
 }
 
@@ -2096,6 +2096,7 @@ a.box:active {
   line-height: 1.125; }
 
 .content h1 {
+  color:  #20415A;
   font-size: 33px;
   margin-bottom: 0.5em;
 font-family: poppins; }
@@ -2318,7 +2319,7 @@ font-family: poppins; }
 
 .notification {
   background-color: #12415C;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative; }
   .notification a:not(.button):not(.dropdown-item) {
@@ -2773,7 +2774,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #363636;
+  color: #20415A;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -8822,7 +8823,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     vertical-align: middle; }
 
 .title {
-  color: #363636;
+  color: #20415A;
   font-size: 33px;
   font-weight: 700;
   line-height: 1.125;
