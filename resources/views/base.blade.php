@@ -41,7 +41,7 @@
     <script src="{{ versioned_asset('dist/app.js') }}"></script>
     @yield('scripts')
 
-    <footer>
+    <footer class="footer">
     @include('footer')
     </footer>
 </body>

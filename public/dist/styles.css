@@ -6,9 +6,16 @@
   to {
     transform: rotate(359deg); } }
 
+.ergo {
+  margin: 3vh !important;
+}
+
+
 #twitch-embed {
-  height: 60vh;
-  margin-bottom: 1.5vh;
+  height: 80vh;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  margin-bottom: 6vh;
 }
 
 .send-form {
@@ -31,23 +38,20 @@ border-radius: 44px !important;
   border-radius: 22px;
   }
 
-
-
-
 #cv {
 box-shadow: 0px 9px 20px rgba(0, 155, 226, 0.24);
 border-radius: 124px;
+margin: 5vh;
 }
 
-.news {
-  
+.news {  
   color: #fff;
   font-family: poppins;
 }
 
 .p-rights {
 
-position: absolute;
+position: relative;
 bottom: 0;
 z-index: 1;
 font-size: .8em;
@@ -57,7 +61,7 @@ z-index: 3;
 }
 
     .tri-right {
-      position: absolute;
+      position: relative;
       bottom: 0;
       border-right: 100vw solid transparent;
       border-bottom: 16vh solid #12415C;
@@ -7028,7 +7032,8 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 footer {
-  position: absolute;
+  
+  position: relative;
   bottom: 0;
 }
 

@@ -1,4 +1,3 @@
-
 @extends('simple-layout')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -32,7 +31,7 @@
             <div class="column is-half is-offset-one-quarter">
                <h1 class="title is-spaced">Qui suis-je ?</h1>
                <h5 class="subtitle  is-spaced">
-               Alexis {{$age}} ans, étudiant passionné en 4ème année à l'EPSI Nantes en spécialité infrastructure système et réseaux 
+                  Alexis {{$age}} ans, étudiant passionné en 4ème année à l'EPSI Nantes en spécialité infrastructure système et réseaux 
                </h5>
             </div>
          </div>
@@ -211,148 +210,148 @@
          </div>
       </div>
       <div class="timeline is-centered">
-   <header class="timeline-header">
-      <span class="is-medium is-primary"><i class="fas fa-school"></i> Lycée</span>
-   </header>
-
-   <div class="timeline-item is-primary">
-      <div class="timeline-marker is-icon">
-         <i class="fas fa-graduation-cap"></i>
+         <header class="timeline-header">
+            <span class="is-medium is-primary"><i class="fas fa-school"></i> Lycée</span>
+         </header>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Juillet</p>
+               <p>Obtention du BAC STI2D Option Systeme Numérique & Informatique Mention Très Bien</p>
+            </div>
+         </div>
+         <header class="timeline-header">
+            <span class="is-primary">2018</span>
+         </header>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Mai-Juin</p>
+               <p>Stage Administration Réseau chez Lengow</p>
+            </div>
+         </div>
+         <header class="timeline-header">
+            <span class="is-primary">2019</span>
+         </header>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Janvier-Février</p>
+               <p>Stage Administration Réseau chez Woodbrass</p>
+            </div>
+         </div>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Mai</p>
+               <p>Obtention du BTS SIO Option SISR</p>
+            </div>
+         </div>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-building"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Septembre</p>
+               <p>Technicien Support Client en Alternance chez Dynamips</p>
+            </div>
+         </div>
+         <div class="timeline-item is-primary">
+            <div class="timeline-marker is-icon">
+               <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+               <p class="heading">Juillet</p>
+               <p>Obtention du Titre ASRBD avec les félicitations du jury</p>
+            </div>
+         </div>
+         <header class="timeline-header">
+            <span class="is-medium is-primary">...Et Apres ?</span>
+         </header>
       </div>
-      <div class="timeline-content">
-         <p class="heading">Juillet</p>
-         <p>Obtention du BAC STI2D Option Systeme Numérique & Informatique Mention Très Bien</p>
-      </div>
-   </div>
-
-   <header class="timeline-header">
-      <span class="is-primary">2018</span>
-   </header>
-   <div class="timeline-item is-primary">
-      <div class="timeline-marker is-icon">
-         <i class="fas fa-briefcase"></i>
-      </div>
-      <div class="timeline-content">
-         <p class="heading">Mai-Juin</p>
-         <p>Stage Administration Réseau chez Lengow</p>
-      </div>
-   </div>
-   <header class="timeline-header">
-      <span class="is-primary">2019</span>
-   </header>
-   <div class="timeline-item is-primary">
-      <div class="timeline-marker is-icon">
-         <i class="fas fa-briefcase"></i>
-      </div>
-      <div class="timeline-content">
-         <p class="heading">Janvier-Février</p>
-         <p>Stage Administration Réseau chez Woodbrass</p>
-      </div>
-   </div>
-   <div class="timeline-item is-primary">
-      <div class="timeline-marker is-icon">
-         <i class="fas fa-graduation-cap"></i>
-      </div>
-      <div class="timeline-content">
-         <p class="heading">Mai</p>
-         <p>Obtention du BTS SIO Option SISR</p>
-      </div>
-   </div>
-   <div class="timeline-item is-primary">
-   <div class="timeline-marker is-icon">
-      <i class="fas fa-building"></i>
-   </div>
-   <div class="timeline-content">
-      <p class="heading">Septembre</p>
-      <p>Technicien Support Client en Alternance chez Dynamips</p>
-   </div>
-   </div>
-   <div class="timeline-item is-primary">
-      <div class="timeline-marker is-icon">
-         <i class="fas fa-graduation-cap"></i>
-      </div>
-      <div class="timeline-content">
-         <p class="heading">Juillet</p>
-         <p>Obtention du Titre ASRBD avec les félicitations du jury</p>
-      </div>
-   </div>
-   <header class="timeline-header">
-      <span class="is-medium is-primary">...Et Apres ?</span>
-   </header>
-</div>
    </div>
 </section>
 <section id="contact" class="section has-background-light">
    {!! form_start($form,$formOptions = [])!!}
    <div class="container is-small">
-      <div class="card-content  is-horizontal-center">
-         <div class="columns is-centered">
-            <div class="column is-narrow">
-               <h1 class="title is-spaced">Une mission ? Je suis là !</h1>
-            </div>
+      <div class="columns">
+         <div class="column is-half is-offset-one-quarter has-text-centered">
+            <h1 class="title is-spaced">Une mission ? Je suis là !</h1>
          </div>
       </div>
-<div class="has-background-white card">
-      <div id="contact" class="card-content is-flex is-horizontal-center">
-         <div class="columns is-centered">
-            <div class="column is-narrow">
-               <div class="field">
-                  <label class="label">Nom</label>
-                  <div class="control ">
-                     {!! form_widget($form->nom,$options = ['attr' => ['class' => 'form-input']]) !!}
+   <div class="columns is-centered">
+      <div class="column is-half">
+       <div class="has-background-white card fiche">
+         <div id="contact" class="card-content is-half-desktop is-flex is-horizontal-center">
+            <div class="columns is-centered is-mobile">
+               <div class="column is-narrow">
+                  <div class="field">
+                     <label class="label">Nom</label>
+                     <div class="control ">
+                        {!! form_widget($form->nom) !!}
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Prénom</label>
+                     <div class="control has-icons-left has-icons-right">
+                        {!! form_widget($form->prenom) !!}
+                        <span class="icon is-small is-left">
+                        </span>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Email</label>
+                     <div class="control">
+                        {!! form_widget($form->mail) !!}
+                        <span class="icon is-small is-left">
+                        </span>
+                        <span class="icon is-small is-right">
+                        </span>
+                     </div>
                   </div>
                </div>
-               <div class="field">
-                  <label class="label">Prénom</label>
-                  <div class="control has-icons-left has-icons-right">
-                     {!! form_widget($form->prenom) !!}
-                     <span class="icon is-small is-left">
-                     </span>
-                     </span>
-                  </div>
-               </div>
-               <div class="field">
-                  <label class="label">Email</label>
-                  <div class="control">
-                     {!! form_widget($form->mail) !!}
-                     <span class="icon is-small is-left">
-                     </span>
-                     <span class="icon is-small is-right">
-                     </span>
+               <div class="column">
+                  <div class="field">
+                     <label class="label">Message</label>
+                     <div class="control">
+                        {!! form_widget($form->message) !!}
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="column">
-               <div class="field">
-                  <label class="label">Message</label>
-                  <div class="control">
-                     {!! form_widget($form->message) !!}
-                  </div>
-               </div>
-            </div>
+            <br>
          </div>
-         <br>
-      </div>
-      <div class="is-flex is-horizontal-center">
-         <div class="columns is-centered">
-            <div class="column">
-               {!! NoCaptcha::display() !!}
-               <div id="confirm" class="field"></div>
-               <div class="field">
-                  <div class="control">
-                     <div class="buttons is-centered">
-                        {!! form_widget($form->Envoyer) !!}
+         <div class="is-flex is-horizontal-center">
+            <div class="columns is-centered">
+               <div class="column">
+                  {!! NoCaptcha::display() !!}
+                  <div id="confirm" class="field"></div>
+                  <div class="field">
+                     <div class="control">
+                        <div class="buttons is-centered ergo">
+                           {!! form_widget($form->Envoyer) !!}
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   {!! form_end($form) !!}
 </div>
+</div>
+      {!! form_end($form) !!}
+   </div>
 </section>
-<section id="ecosystem" class="section has-background-white is-medium has-text-centered">
+<section id="reseaux" class="section has-background-white is-medium has-text-centered">
    <div class="container is-small">
       <div class="card-content  is-horizontal-center">
          <div class="columns is-centered">
@@ -433,4 +432,3 @@
 <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
 <script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}"></script>
 @stop
-
