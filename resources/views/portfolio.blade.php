@@ -418,7 +418,6 @@
          <p class="modal-card-title" id="titre"></p>
       </header>
       <section class="modal-card-body" id="contenu">
-         <!-- Content ... -->
       </section>
       <footer class="modal-card-foot">
          <div class="button is-info close is-rounded">OK</div>
