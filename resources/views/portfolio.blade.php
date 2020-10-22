@@ -17,7 +17,7 @@
                   <div class="column is-half is-offset-one-quarter">
                      <h1 id="anim1" class="title is-2 is-spaced"></h1>
                      <div class="card-content is-flex is-horizontal-center">
-                        <figure class="image"><img src="{{ asset('images/yolo2.png') }}"></figure>
+                        <figure class="image"><img src="{{ asset('images/profil.png') }}"></figure>
                      </div>
                   </div>
                </div>
@@ -133,9 +133,9 @@
                               src="{{ asset('images/windows.png') }}"></figure>
                            <figure class="image is-48x48 is-inline-block tooltip competence" data-id="6" data-tooltip="VmWare" ><img
                               src="{{ asset('images/vmware.png') }}"></figure>
-                           <figure class="image is-48x48 is-inline-block tooltip competence" data-id="6" data-tooltip="Nginx" ><img
+                           <figure class="image is-48x48 is-inline-block tooltip competence" data-id="21" data-tooltip="Nginx" ><img
                               src="{{ asset('images/nginx.png') }}"></figure>
-                           <figure class="image is-48x48 is-inline-block tooltip competence" data-id="6" data-tooltip="Proxmox" ><img
+                           <figure class="image is-48x48 is-inline-block tooltip competence" data-id="20" data-tooltip="Proxmox" ><img
                               src="{{ asset('images/proxmox.png') }}"></figure>
                            <figure class="image is-48x48 is-inline-block tooltip competence" data-id="6" data-tooltip="Docker" ><img
                               src="{{ asset('images/docker.png') }}"></figure>
@@ -162,6 +162,9 @@
                               src="{{ asset('images/sophos.png') }}"></figure>
                            <figure class="image is-48x48 is-inline-block tooltip competence" data-id="18" data-tooltip="Pfsense" ><img
                               src="{{ asset('images/pfsense.png') }}"></figure>
+
+                           <figure class="image is-48x48 is-inline-block tooltip competence" data-id="22" data-tooltip="Debian" ><img
+                              src="{{ asset('images/debian.png') }}"></figure>
                         </div>
                      </div>
                   </div>

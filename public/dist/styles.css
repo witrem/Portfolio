@@ -10,6 +10,9 @@
   margin: 3vh !important;
 }
 
+.relative {
+  position: relative;
+}
 
 #twitch-embed {
   height: 80vh;
@@ -17,6 +20,7 @@
   margin-right: 6vh;
   margin-bottom: 6vh;
 }
+
 
 .send-form {
 background: #009BE2 !important;
@@ -51,17 +55,17 @@ margin: 5vh;
 
 .p-rights {
 
-position: relative;
+position: absolute;
 bottom: 0;
 z-index: 1;
 font-size: .8em;
 margin-left: 10px;
 color: #e8e8e8;
-z-index: 3;
+z-index: 4;
 }
 
     .tri-right {
-      position: relative;
+      position: absolute;
       bottom: 0;
       border-right: 100vw solid transparent;
       border-bottom: 16vh solid #12415C;
@@ -7032,8 +7036,9 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  position: absolute;
-  bottom: -6vh;
+  position:absolute;
+   bottom:0;
+   width:100%;
 }
 
 @keyframes spinAround {
