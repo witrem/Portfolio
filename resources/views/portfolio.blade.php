@@ -65,8 +65,8 @@
                      src="{{ asset('images/rocket.png') }}"></figure>
                   <br><br>
                </div>
-               <h5 class="title is-5 is-spaced">Ambitieux</h5>
-               <p class="subtitle is-6">Construire ses propres projets. 
+               <h5 class="title is-5 is-spaced">Autodidacte</h5>
+               <p class="subtitle is-6"> J'aime entreprendre régulièrement de nouvelles choses et explorer de nouvelles technologies afin de parfaire mes connaissances dans le monde vaste de l'informatique !. 
                </p>
             </div>
          </div>

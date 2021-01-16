@@ -11,7 +11,7 @@
                     <img class="logo-image" src="{{ setting('app-logo', '') === '' ? baseUrl('/logo.png') : baseUrl(setting('app-logo', '')) }}" alt="Logo">
                 @endif
                 @if (setting('app-name-header'))
-                    <span class="logo-text">{{ setting('app-name') }}</span>
+                    <span class="title logo-text">{{ setting('app-name') }}</span>
                 @endif
             </a>
             <div class="mobile-menu-toggle hide-over-l">@icon('more')</div>
@@ -32,10 +32,7 @@
                     @if (hasAppAccess())
                         <a class="hide-over-l" href="{{ baseUrl('/search') }}">@icon('search'){{ trans('common.search') }}</a>
                         <a href="{{ baseUrl('/') }}">@icon('homepage')Accueil</a>
-                        @if(userCanOnAny('view', \BookStack\Entities\Bookshelf::class) || userCan('bookshelf-view-all') || userCan('bookshelf-view-own'))
-                           <a href="{{ baseUrl('/shelves') }}">@icon('bookshelf'){{ trans('entities.shelves') }}</a> 
-                        @endif
-                        
+             
                         <a href="{{ baseUrl('/books') }}">@icon('books'){{ trans('entities.books') }}</a>
                         <a href="{{baseUrl('/live')}}">@icon('twitch')Live</a>
                         <a href="{{baseUrl('/')}}#contact">@icon('envelope')Contact</a>
