@@ -2,11 +2,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <link rel="stylesheet" href="{{ versioned_asset('dist/main.css') }}">
-<!-- <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}"> -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 {!! NoCaptcha::renderJs() !!}
 <script type="text/javascript" src="{{ URL::asset('js/icon.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
+<noscript>Votre navigateur ne supporte pas JavaScript !</noscript>
 @section('body')
 <div id="landing-page">
    <section class="hero-container has-overlay-image">
@@ -74,7 +74,7 @@
             <div class="column">
                <div class="notification news">
                   <button class="delete"></button>
-                  <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="http://127.0.0.1:8000/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
+                  <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="https://test.alexislegeay.fr:8000/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
                </div>
             </div>
          </div>

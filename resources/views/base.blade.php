@@ -14,7 +14,7 @@
     <link rel="stylesheet" media="print" href="{{ versioned_asset('dist/print-styles.css') }}">
     
     <!-- Scripts -->
-   <!-- <script src="{{ baseUrl('/translations') }}"></script> -->
+  <!-- <script src="{{ baseUrl('/translations') }}"></script> -->
 
     @yield('head')
     @include('partials.custom-styles')
