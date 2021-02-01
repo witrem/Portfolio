@@ -74,7 +74,7 @@
             <div class="column">
                <div class="notification news">
                   <button class="delete"></button>
-                  <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="https://test.alexislegeay.fr:8000/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
+                  <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="https://test.alexislegeay.fr/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
                </div>
             </div>
          </div>
