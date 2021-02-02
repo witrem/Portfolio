@@ -7037,7 +7037,7 @@ label.panel-block {
 
 .footer {
   position:relative;
-   bottom:0;
+   bottom:-9vh;
    width:100%;
 }
 
