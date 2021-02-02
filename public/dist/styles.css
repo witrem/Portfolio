@@ -7036,7 +7036,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  position:absolute;
+  position:relative;
    bottom:0;
    width:100%;
 }
