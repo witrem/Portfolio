@@ -10,6 +10,11 @@
   margin: 3vh !important;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .relative {
   position: relative;
 }
@@ -7036,9 +7041,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  position:relative;
-   bottom:-9vh;
-   width:100%;
+  flex-shrink: 0;
 }
 
 @keyframes spinAround {
