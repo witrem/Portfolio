@@ -2,7 +2,7 @@
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <body class="relative">
 @section('body')
-    <!-- Add a placeholder for the Twitch embed -->
+    
     <section  class="section is-medium">
     <div class="container has-background-white card">
          <div class="columns is-mobile is-centered">
@@ -17,16 +17,16 @@
          </div> 
      </div>
     </section>
-    <!-- Load the Twitch embed script -->
+   
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+   
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
         width: "100%",
         height: "100%",
-        channel: "monstercat",
-        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        channel: "witrem",
+      
        
       });
     </script> 
