@@ -10,9 +10,14 @@
   margin: 3vh !important;
 }
 
+#content {
+  flex: 1 0 auto;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .relative {
@@ -59,19 +64,17 @@ margin: 5vh;
 }
 
 .p-rights {
-
 position: absolute;
-bottom: 0;
 z-index: 1;
 font-size: .8em;
 margin-left: 10px;
 color: #e8e8e8;
 z-index: 4;
+margin-top: 8vh;
 }
 
     .tri-right {
       position: absolute;
-      bottom: 0;
       border-right: 100vw solid transparent;
       border-bottom: 16vh solid #12415C;
       z-index: 3;
@@ -79,7 +82,6 @@ z-index: 4;
 
     .tri-right2 {
       position: absolute;
-      bottom: 0;
       border-left: 100vw solid transparent;
       border-bottom: 13vh solid #2b9adc;
       z-index: 2;
